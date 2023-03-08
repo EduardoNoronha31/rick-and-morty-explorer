@@ -1,6 +1,9 @@
 <template>
   <div id="header" class="flex row q-px-md">
-    <div class="logo-content flex items-center" @click="redirectTo('/')">
+    <div
+      class="logo-content flex items-center animate__animated animate__fadeIn"
+      @click="redirectTo('/')"
+    >
       <img
         src="src/assets/logo.svg"
         class="logo cursor-pointer platform__animation__scale_1-1"
@@ -9,7 +12,7 @@
 
     <div class="links-content-desktop q-ml-md flex items-center">
       <div
-        class="link-text text-subtitle1 text-white q-px-md cursor-pointer text-weight-medium platform__animation__scale_1-05"
+        class="link-text text-subtitle1 text-white q-px-md cursor-pointer text-weight-medium platform__animation__scale_1-05 animate__animated animate__fadeIn"
         v-for="link in links"
         :key="link.id"
         @click="redirectTo(link.route)"
@@ -18,7 +21,9 @@
       </div>
     </div>
 
-    <div class="menu-icon-mobile cursor-pointer">
+    <div
+      class="menu-icon-mobile cursor-pointer animate__animated animate__fadeIn"
+    >
       <q-icon
         name="menu"
         color="white"
@@ -38,7 +43,7 @@
     <div class="mobile-menu flex justify-center">
       <div class="links-content-mobile flex column justify-around">
         <div
-          class="link-text text-subtitle1 text-white text-weight-medium"
+          class="link-text text-subtitle1 text-white text-weight-medium animate__animated animate__fadeIn"
           v-for="link in links"
           :key="link.id"
           @click="redirectTo(link.route)"
@@ -51,6 +56,7 @@
 </template>
 
 <script>
+import "animate.css";
 import { defineComponent } from "vue";
 
 export default defineComponent({
