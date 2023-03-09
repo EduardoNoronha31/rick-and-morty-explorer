@@ -28,7 +28,7 @@ module.exports = configure((/* ctx */) => ({
   // app boot file (/src/boot)
   // --> boot files are part of "main.js"
   // https://v2.quasar.dev/quasar-cli/boot-files
-  boot: ["apollo"],
+  boot: ["axios", "apollo"],
 
   // https://v2.quasar.dev/quasar-cli-vite/quasar-config-js#css
   css: ["app.scss"],
