@@ -1,6 +1,6 @@
 {
   "name": "rick-and-morty-explorer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A project using Vue.JS, Quasar Framework and GraphQL to explore rick and morty API data.",
   "productName": "RaME",
   "author": "Eduardo Noronha <eduardonoronha3101@gmail.com>",
@@ -12,7 +12,6 @@
   "dependencies": {
     "@quasar/extras": "^1.0.0",
     "animate.css": "^4.1.1",
-    "axios": "^1.2.1",
     "pinia": "^2.0.11",
     "quasar": "^2.6.0",
     "vue": "^3.0.0",
@@ -20,6 +19,7 @@
   },
   "devDependencies": {
     "@quasar/app-vite": "^1.0.0",
+    "@quasar/quasar-app-extension-apollo": "^2.0.0-beta.5",
     "autoprefixer": "^10.4.2",
     "eslint": "^8.10.0",
     "eslint-config-airbnb-base": "^15.0.0",
