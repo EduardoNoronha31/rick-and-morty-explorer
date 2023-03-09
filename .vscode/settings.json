@@ -7,5 +7,11 @@
   "eslint.validate": ["javascript", "javascriptreact", "typescript", "vue"],
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[plaintext]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[graphql]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
