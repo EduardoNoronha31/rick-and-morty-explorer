@@ -8,8 +8,8 @@
       >
         <character-card
           :character="character"
-          v-for="character in result.characters.results"
           :key="character.id"
+          v-for="character in result.characters.results"
         />
       </div>
     </template>

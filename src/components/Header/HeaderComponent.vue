@@ -5,7 +5,7 @@
       @click="redirectTo('/')"
     >
       <img
-        src="src/assets/logo.svg"
+        src="../../assets/logo.svg"
         class="logo cursor-pointer platform__animation__scale_1-1"
       />
     </div>
@@ -67,20 +67,14 @@ export default defineComponent({
       links: [
         {
           id: 1,
-          name: "Início",
+          name: "Home",
           route: "/",
         },
 
         {
           id: 2,
-          name: "Personagens",
+          name: "Characters",
           route: "/characters",
-        },
-
-        {
-          id: 3,
-          name: "Episódios",
-          route: "/episodes",
         },
       ],
       showMobileMenu: false,

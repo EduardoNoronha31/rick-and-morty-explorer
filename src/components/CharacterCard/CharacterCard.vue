@@ -2,6 +2,7 @@
   <div
     id="character-card"
     class="flex q-pa-md q-ma-sm shadow-4 cursor-pointer platform__animation__scale_1-05 animate__animated animate__fadeIn"
+    @click="redirectTo(`/characters/${character.id}`)"
   >
     <div class="top-content">
       <img :src="character.image" />
@@ -30,6 +31,12 @@ export default defineComponent({
     character: {
       type: Object,
       default: () => {},
+    },
+  },
+
+  methods: {
+    redirectTo(route) {
+      this.$router.push({ path: route });
     },
   },
 });

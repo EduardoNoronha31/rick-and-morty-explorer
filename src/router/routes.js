@@ -10,8 +10,13 @@ const routes = [
   },
 
   {
+    path: "/characters/:id",
+    component: () => import("src/pages/CharacterPage.vue"),
+  },
+
+  {
     path: "/:catchAll(.*)*",
-    component: () => import("pages/ErrorNotFound.vue"),
+    component: () => import("src/pages/ErrorNotFound.vue"),
   },
 ];
 
