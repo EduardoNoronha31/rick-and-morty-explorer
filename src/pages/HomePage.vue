@@ -3,12 +3,12 @@
     <template v-slot:content>
       <div id="home-page" class="flex column items-center">
         <img
-          src="src/assets/rick-and-morty-text.svg"
+          src="rick-and-morty-text.svg"
           class="rick-and-morty-text-image q-mt-xl animate__animated animate__bounceIn"
         />
 
         <img
-          src="src/assets/rick-and-morty-spaceship.svg"
+          src="rick-and-morty-spaceship.svg"
           class="rick-and-morty-spaceship q-mt-md animate__animated animate__zoomInUp animate__slow"
         />
       </div>
