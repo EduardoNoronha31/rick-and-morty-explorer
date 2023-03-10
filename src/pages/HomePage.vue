@@ -1,5 +1,5 @@
 <template>
-  <main-layout>
+  <main-layout :hasLoading="false">
     <template v-slot:content>
       <div id="home-page" class="flex column items-center">
         <img

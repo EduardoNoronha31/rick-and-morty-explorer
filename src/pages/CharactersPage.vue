@@ -1,5 +1,5 @@
 <template>
-  <main-layout>
+  <main-layout :hasLoading="areOnTheFirstRequest">
     <template v-slot:content>
       <div id="characters-page">
         <div class="characters-search flex items-center justify-end q-px-md">
@@ -25,7 +25,6 @@
 
         <div
           class="characters-content flex row justify-evenly"
-          v-if="!areOnTheFirstRequest"
           @scroll="getNextCharacters($event)"
         >
           <character-card
@@ -80,7 +79,9 @@ export default defineComponent({
           this.characters = this.characters.concat(characters);
         }
 
-        this.areOnTheFirstRequest = false;
+        setTimeout(() => {
+          this.areOnTheFirstRequest = false;
+        }, 1100);
         this.hasScrollLoading = false;
       }
     },
