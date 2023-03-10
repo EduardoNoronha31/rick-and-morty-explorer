@@ -79,9 +79,7 @@ export default defineComponent({
           this.characters = this.characters.concat(characters);
         }
 
-        setTimeout(() => {
-          this.areOnTheFirstRequest = false;
-        }, 1100);
+        this.areOnTheFirstRequest = false;
         this.hasScrollLoading = false;
       }
     },

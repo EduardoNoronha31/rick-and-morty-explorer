@@ -9,7 +9,7 @@
 
         <img
           src="rick-and-morty-spaceship.svg"
-          class="rick-and-morty-spaceship q-mt-md animate__animated animate__zoomInUp animate__slow"
+          class="rick-and-morty-spaceship q-mt-md animate__animated animate__zoomInUp"
         />
       </div>
     </template>
