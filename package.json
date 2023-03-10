@@ -1,6 +1,6 @@
 {
   "name": "rick-and-morty-explorer",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "A project using Vue.JS, Quasar Framework and GraphQL to explore rick and morty API data.",
   "productName": "RaME",
   "author": "Eduardo Noronha <eduardonoronha3101@gmail.com>",
