@@ -1,7 +1,7 @@
 # 📃 Description
 
 # RaME (rick-and-morty-explorer)
-#### Click <a href="https://rick-and-morty-explorer-mu.vercel.app/">here</a> to access the demo
+#### Click <a href="https://rick-and-morty-explorer-mu.vercel.app/" target="_blank">here</a> to access the demo
 
 ✨ A project using Vue.JS, Quasar Framework and GraphQL to explore rick and morty API data.
 
@@ -71,9 +71,9 @@
 
   <br>
 
-  <a href="https://github.com/EduardoNoronha31"><li>Eduardo Noronha</li></a>
+  <a href="https://github.com/EduardoNoronha31" target="_blank">Eduardo Noronha</a>
 
-  <a href="https://www.linkedin.com/in/eduardo-noronha-093735219/"><li>LinkedIn</li></a>
+  <a href="https://www.linkedin.com/in/eduardo-noronha-093735219/" target="_blank">LinkedIn</a>
 
   <hr>
   <hr>
