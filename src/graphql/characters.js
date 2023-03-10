@@ -1,8 +1,8 @@
 import gql from "graphql-tag";
 
 export const ALL_CHARACTERS = gql`
-  query {
-    characters {
+  query ($page: Int, $filter: FilterCharacter) {
+    characters(page: $page, filter: $filter) {
       info {
         pages
       }
