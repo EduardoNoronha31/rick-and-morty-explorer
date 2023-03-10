@@ -1,11 +1,7 @@
 <template>
-  <main-layout>
+  <main-layout :hasLoading="hasRequest">
     <template v-slot:content>
-      <div
-        id="character-page"
-        class="flex justify-center q-mt-xl"
-        v-if="!hasRequest"
-      >
+      <div id="character-page" class="flex justify-center q-mt-xl">
         <character-infos :character="character" />
       </div>
     </template>
@@ -40,7 +36,10 @@ export default defineComponent({
     response(result) {
       if (result) {
         this.character = result.character;
-        this.hasRequest = false;
+
+        setTimeout(() => {
+          this.hasRequest = false;
+        }, 1100);
       }
     },
   },
