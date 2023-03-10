@@ -1,6 +1,7 @@
 # 📃 Description
 
 # RaME (rick-and-morty-explorer)
+## Click <a href="https://rick-and-morty-explorer-mu.vercel.app/">here</a> to access the demo
 
 ✨ A project using Vue.JS, Quasar Framework and GraphQL to explore rick and morty API data.
 
