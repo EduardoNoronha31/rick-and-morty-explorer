@@ -36,10 +36,7 @@ export default defineComponent({
     response(result) {
       if (result) {
         this.character = result.character;
-
-        setTimeout(() => {
-          this.hasRequest = false;
-        }, 1100);
+        this.hasRequest = false;
       }
     },
   },
